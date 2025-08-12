@@ -1,0 +1,30 @@
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f1f1f1;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+h2, h3 {
+    color: #333;
+  }
+
+ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+li {
+    background: #f9f9f9;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+  }

@@ -1,0 +1,65 @@
+#section-one-container{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 100px 0 0 0;
+}
+
+#section-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+#section-one-text{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+#section-one-text h5{
+    display: flex;
+}
+
+#section-one-text h3{
+    display: flex;
+}
+
+#myself{
+    display: flex;
+    flex-direction: column;
+    float: right;
+}
+
+#section-one-circle{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 57%;
+    height: 31vh;
+    border-radius: 50%;
+    display: flex;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#fullstack{
+    display: flex;
+    float: left;
+    font-size: 4rem;
+}
+
+#developer{
+    display: flex;
+    flex-direction: column;
+    font-size: 4rem;
+}

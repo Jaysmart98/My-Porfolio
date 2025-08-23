@@ -11,6 +11,11 @@ function App() {
       <Navbar/>
       <SectionOne/>
       <Footer/>
+
+      <div id='container'>
+      <div id='clip'></div>
+      <div id='triangle'> </div>
+      </div>
     </>
   )
 }

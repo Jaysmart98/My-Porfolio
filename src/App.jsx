@@ -3,6 +3,9 @@ import './App.css'
 import Navbar from './components/secondaryComponents/Navbar/Navbar'
 import Footer from './components/secondaryComponents/Footer/Footer'
 import SectionOne from './components/secondaryComponents/SectionOne/SectionOne'
+import SectionTwo from './components/secondaryComponents/SectionTwo/SectionTwo'
+import Clippath from './components/secondaryComponents/ClipPath/Clippath'
+
 
 function App() {
 
@@ -10,12 +13,11 @@ function App() {
     <>
       <Navbar/>
       <SectionOne/>
+      <SectionTwo/>
+      <Clippath/>
+      <br />
+      <hr />
       <Footer/>
-
-      <div id='container'>
-      <div id='clip'></div>
-      <div id='triangle'> </div>
-      </div>
     </>
   )
 }

@@ -14,9 +14,7 @@ function App() {
       <Navbar/>
       <SectionOne/>
       <SectionTwo/>
-      <Clippath/>
-      <br />
-      <hr />
+      {/* <Clippath/> */}
       <Footer/>
     </>
   )

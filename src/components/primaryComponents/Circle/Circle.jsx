@@ -5,7 +5,7 @@ const Circle = ({image, image2, WD, HG,Tp, LF}) => {
   return (
     <>
       <div id='circle-container' className='circle-container'>
-           <div class="circle">
+           <div class="circle" id='circle'>
             <img src={image2} class="card-img-top" id='img'/>
             <div class="card-body">
             </div>

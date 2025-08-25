@@ -24,7 +24,7 @@ const SectionOne = () => {
           <div id='section-one-circle' className='section-one-circle'>
           <Circle image={Jaysmart}  anchortext={'Click me'}/> <br />
           <div id='icons'>
-          <img id='logo' src="./src/assets/Images/Logo.PNG" alt=""  />
+          <img id='logo' src="./src/assets/Images/Icons.PNG" alt=""  />
           </div>
           </div>
        

@@ -15,7 +15,11 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    /* justify-content: space-between; */
+    color: #000000;
+    text-align: start;
+    padding: 0 10% 0 10%;
+    justify-content: space-between;
+    border: 1px #000000 solid ;
 }
 
 #section-one-circle{
@@ -25,11 +29,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border: 1px #000000 solid ;
 }
 
-#section-two text{
+#section-two-text{
     width: 50%;
-    font-size: 2rem;
+    font-size: 1rem;
     color: #000000;
-    text-align: center;
+    border: 1px solid #000000;
+    padding: 0 20px 0 20px;
 }

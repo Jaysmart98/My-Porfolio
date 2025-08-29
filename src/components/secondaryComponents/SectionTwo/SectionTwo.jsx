@@ -11,21 +11,63 @@ const SectionTwo = () => {
   return (
     <>
     <div id='section-Two-container' className='section-one-container'>
-       
+          
           <div id='section-two'>
-
           <div id='section-two-circle' className='section-two-circle'>
           <Circle image={Jay}  anchortext={'Click me'} WD={"120%"} HG={"150%"} Tp={"-38px"} LF={"-15px"} />
           </div>
 
+
           <div id='section-two-text' className='section-two-text'>
             <h1>About me</h1>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro, quae! Alias ratione sit, quasi architecto dolorem facilis, perferendis, ipsam magni pariatur vero eos at illo.</p>
+            <p>
+            I am a passionate and dedicated web developer with a knack for creating visually appealing 
+            and user-friendly websites. With a strong foundation in both frontend and backend technologies, 
+            I strive to deliver seamless digital experiences that captivate users and drive engagement.
+            </p>
+
+            <div id='section-two-skills'>
+            <div className='skill'>
+            <h5>Frontend</h5>
+            <div id='lines'>
+              <img src="../src/assets/images/OrangeLine.png" alt="" id='img1' />
+              <img src="../src/assets/images/Pointer.png" alt=""  id='img2'/>
+              <img src="../src/assets/images/WhiteLine.png" alt="" id='img3'/>
+            </div>
+            </div>
+
+            <div className='skill'>
+            <h5>Backend</h5>
+            <div id='lines'>
+              <img src="../src/assets/images/OrangeLine.png" alt="" id='img1' />
+              <img src="../src/assets/images/Pointer.png" alt=""  id='img2'/>
+              <img src="../src/assets/images/WhiteLine.png" alt="" id='img3'/>
+            </div>
+           </div> 
+
+            <div className='skill'>
+            <h5>Designing</h5>
+            <div id='lines'>
+              <img src="../src/assets/images/OrangeLine.png" alt="" id='img1' />
+              <img src="../src/assets/images/Pointer.png" alt=""  id='img2'/>
+              <img src="../src/assets/images/WhiteLine.png" alt="" id='img3'/>
+            </div>
           </div>
 
-        
+
+          <div className='skill'>
+            <h5>Web design</h5>
+            <div id='lines'>
+              <img src="../src/assets/images/OrangeLine.png" alt="" id='img1' />
+              <img src="../src/assets/images/Pointer.png" alt=""  id='img2'/>
+              <img src="../src/assets/images/WhiteLine.png" alt="" id='img3'/>
+            </div>
           </div>
 
+
+            </div>
+          </div>
+          </div>
         </div>
     </>
   )

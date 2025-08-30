@@ -1,0 +1,29 @@
+#section-Three-container{
+    background-color: aliceblue;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 200px 0 200px 0;
+    color: black;
+}
+
+#section-Three-text{
+    text-align: center;
+}
+
+#section-Three-text h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.cardContainer{
+    display: flex;
+    flex-direction: row;
+    text-align: start;
+    gap: 50px;
+    padding-top: 50px;
+    width: 100%; 
+    padding: 50px 200px 0 200px;
+}

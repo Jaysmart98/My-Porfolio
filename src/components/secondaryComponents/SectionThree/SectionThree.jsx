@@ -1,22 +1,54 @@
 import React from 'react'
 import './SectionThree.css'
+import Card from '../Card/Card'
+import WebDesignIcon from '../../../assets/Images/WebDesignIcon.png'
+import Vector from '../../../assets/Images/Vector.png'
+import AppDesignIcon from '../../../assets/Images/AppDesignIcon.png'
 
 const SectionThree = () => {
+
+  const cardDetails = [
+    {
+      image: WebDesignIcon,
+      text: "Frontend Development",
+      description: "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+    },
+    {
+      image: Vector,
+      text: "Backend Development",
+      description: "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+    },
+    {
+      image: WebDesignIcon,
+      text: "Responsive Design",
+      description: "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+    },
+    {
+      image: AppDesignIcon,
+      text: "App Development",
+      description: "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+    }
+  ]
+
+
+
   return (
     <>
-    <div>
+    <div id='section-Three-container'>
        
-       <div>
+       <div id='section-Three-text'>
         <h1>Services</h1>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
           Minus, expedita error. Quidem ad rerum accusamus.</p>
       </div>
 
+
        <div>
-         
+        <div className='cardContainer'> {cardDetails?.map((detail, index) => (
+         <Card  image={detail.image} text={detail.text} description={detail.description} key={index}/>
+      ))}
+    </div>
        </div>
-
-
     </div>  
     </>
   )

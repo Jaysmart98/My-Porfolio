@@ -1,15 +1,12 @@
 .card-container{
     background-color: #d4cdcd69;
-    width: 400px;
-    height: 350px;
+    width: 100%;
+    height: 100%;
     transition: transform 0.2s;
     text-align: start;
-    padding: 40px;
+    padding: 20px;
 }
 
 .card-container img{
-    width: 37%;
-    height: 100px;
-    object-fit: cover;
-    padding: 5%;
+    object-fit:cover;
 }

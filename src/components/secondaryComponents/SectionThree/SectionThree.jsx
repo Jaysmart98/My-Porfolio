@@ -38,18 +38,21 @@ const SectionThree = () => {
        
        <div id='section-Three-text'>
         <h1>Services</h1>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-          Minus, expedita error. Quidem ad rerum accusamus.</p>
+        <p>
+          I offer a wide range of services, including web design, web development,
+          app development, and more. I am always looking for new and exciting projects to work on.
+          
+        </p>
       </div>
 
 
        <div>
         <div className='cardContainer'> {cardDetails?.map((detail, index) => (
-         <Card  image={detail.image} text={detail.text} description={detail.description} key={index}/>
-      ))}
+         <Card  image={detail.image} text={detail.text} description={detail.description} key={index} width={"90px"} height={"130px"}/>))}
     </div>
+
        </div>
-    </div>  
+    </div>   
     </>
   )
 }

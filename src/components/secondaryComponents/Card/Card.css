@@ -7,6 +7,35 @@
     padding: 20px;
 }
 
+.card-container:hover{
+    /* background-color: #fffbfb; */
+    transform:scale(1.05);
+    cursor: pointer;
+    
+}
+
 .card-container img{
     object-fit:cover;
+}
+
+#card-container:hover{
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.card-text{
+    padding-top: 10px;
+}
+
+.card-text h2{
+    font-size: 1.5rem;
+    font-weight: 750;
+    padding-bottom: 5px;
+    margin-top: 20px;
+}
+.card-text p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
 }

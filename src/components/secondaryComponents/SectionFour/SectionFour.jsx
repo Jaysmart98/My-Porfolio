@@ -6,6 +6,7 @@ import SignInPage from '../../../assets/Images/SignInPage.png'
 // import Portfolio from '../../../assets/Images/Portfolio.png'
 import SignUpPage from '../../../assets/Images/SignUpPage.png'
 import ECommerceA from '../../../assets/Images/ECommerceA.png'
+import Button from '../../primaryComponents/Button/Button'
 
 
 const SectionFour = () => {
@@ -23,13 +24,13 @@ const SectionFour = () => {
         },
         {
           image: SignUpPage,
-          text: "Login and Signup Page",
+          text: "Login Page",
           description: "A login page is a web page that allows users to access a website or application by entering their credentials."
         },
         {
           image: TodoApp,
           text: "Todo App",
-          description: "A todo app is a web application that allows users to create, manage, remember and track their tasks and to-do lists."
+          description: "A todo app is a web application that allows users to create, manage,track their tasks and to-do lists."
         }
       ]
 
@@ -66,8 +67,9 @@ const SectionFour = () => {
         </div>
        </div>
 
-        <div className='cardContainer'> {cardDetails?.map((detail, index) => (
-         <Card  image={detail.image} text={detail.text} description={detail.description} key={index} width={"100%"} padding={"20px"}  height={"100%"} BgColor={"rgb(255,235,219)"}/>))}
+        <div id='cardContainer'> {cardDetails?.map((detail, index) => (
+         <Card  image={detail.image} text={detail.text} description={detail.description} key={index} width={"100%"} padding={"10px"}  height={"100%"} BgColor={"rgb(255,235,219)"} btnText={"View"} />
+         ))}
        </div>
 
     </div> 

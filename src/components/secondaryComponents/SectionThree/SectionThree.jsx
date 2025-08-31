@@ -10,12 +10,12 @@ const SectionThree = () => {
   const cardDetails = [
     {
       image: WebDesignIcon,
-      text: "Frontend Development",
+      text: "Frontend",
       description: "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
     },
     {
       image: Vector,
-      text: "Backend Development",
+      text: "Backend",
       description: "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
     },
     {
@@ -41,7 +41,6 @@ const SectionThree = () => {
         <p>
           I offer a wide range of services, including web design, web development,
           app development, and more. I am always looking for new and exciting projects to work on.
-          
         </p>
       </div>
 

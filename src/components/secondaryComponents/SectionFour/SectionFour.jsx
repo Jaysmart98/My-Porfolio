@@ -6,7 +6,7 @@ import SignInPage from '../../../assets/Images/SignInPage.png'
 // import Portfolio from '../../../assets/Images/Portfolio.png'
 import SignUpPage from '../../../assets/Images/SignUpPage.png'
 import ECommerceA from '../../../assets/Images/ECommerceA.png'
-import Button from '../../primaryComponents/Button/Button'
+// import Button from '../../primaryComponents/Button/Button'
 
 
 const SectionFour = () => {
@@ -15,22 +15,26 @@ const SectionFour = () => {
         {
           image: ECommerceA,
           text: "E-commerce",
-          description: "Ecommerce is the activity of electronically buying or selling products on online services or over the Internet."
+          description: "Ecommerce is the activity of electronically buying or selling products on online services or over the Internet.",
+          href: "https://e-commerce-frontend-ten-inky.vercel.app/"
         },
         {
           image: SignInPage,
           text: "Sign in page",
-          description: "A sign-in page is a web page that allows users to access a website or application by entering their credentials."
+          description: "A sign-in page is a web page that allows users to access a website or application by entering their credentials.",
+          href: "https://e-commerce-frontend-ten-inky.vercel.app/"
         },
         {
           image: SignUpPage,
           text: "Login Page",
-          description: "A login page is a web page that allows users to access a website or application by entering their credentials."
+          description: "A login page is a web page that allows users to access a website or application by entering their credentials.",
+          href: "https://e-commerce-frontend-ten-inky.vercel.app/"
         },
         {
           image: TodoApp,
           text: "Todo App",
-          description: "A todo app is a web application that allows users to create, manage,track their tasks and to-do lists."
+          description: "A todo app is a web application that allows users to create, manage,track their tasks and to-do lists.",
+          href: "https://e-commerce-frontend-ten-inky.vercel.app/"
         }
       ]
 
@@ -68,7 +72,7 @@ const SectionFour = () => {
        </div>
 
         <div id='cardContainer'> {cardDetails?.map((detail, index) => (
-         <Card  image={detail.image} text={detail.text} description={detail.description} key={index} width={"100%"} padding={"10px"}  height={"100%"} BgColor={"rgb(255,235,219)"} btnText={"View"} />
+         <Card  image={detail.image} text={detail.text} description={detail.description} href={detail.href} key={index} width={"100%"} padding={"10px"}  height={"100%"} BgColor={"rgb(255,235,219)"} btnText={"View"}/>
          ))}
        </div>
 

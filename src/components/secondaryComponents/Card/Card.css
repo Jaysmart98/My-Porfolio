@@ -8,10 +8,8 @@
 }
 
 .card-container:hover{
-    /* background-color: #fffbfb; */
     transform:scale(1.05);
     cursor: pointer;
-    
 }
 
 .card-container img{

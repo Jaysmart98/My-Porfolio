@@ -6,6 +6,7 @@ import SectionOne from './components/secondaryComponents/SectionOne/SectionOne'
 import SectionTwo from './components/secondaryComponents/SectionTwo/SectionTwo'
 import SectionThree from './components/secondaryComponents/SectionThree/SectionThree'
 import SectionFour from './components/secondaryComponents/SectionFour/SectionFour'
+import SectionFive from './components/secondaryComponents/SectionFive/SectionFive'
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <SectionTwo/>
       <SectionThree/>
       <SectionFour/>
+      <SectionFive/>
       <Footer/>
     </>
   )

@@ -1,25 +1,33 @@
 import React from 'react'
 import './App.css'
-import Navbar from './components/secondaryComponents/Navbar/Navbar'
+import Navbar from './components/Navbar/Navbar'
 import Footer from './components/secondaryComponents/Footer/Footer'
-import SectionOne from './components/secondaryComponents/SectionOne/SectionOne'
-import SectionTwo from './components/secondaryComponents/SectionTwo/SectionTwo'
-import SectionThree from './components/secondaryComponents/SectionThree/SectionThree'
-import SectionFour from './components/secondaryComponents/SectionFour/SectionFour'
-import SectionFive from './components/secondaryComponents/SectionFive/SectionFive'
+
+import Home from './components/Pages/Home/Home'
+import About from './components/Pages/Home/Home'
+import Contact from './components/Pages/Contact/Contact'
+
+import { Route } from 'react-router-dom'
+import { BrowserRouter, Router, Routes } from 'react-router-dom'
+
 
 
 function App() {
 
   return (
     <>
-      <Navbar/>
-      <SectionOne/>
-      <SectionTwo/>
-      <SectionThree/>
-      <SectionFour/>
-      <SectionFive/>
-      <Footer/>
+
+    <BrowserRouter>
+    <Navbar/>
+
+    <Routes>
+      <Route path='/' element={<Home/>}/>
+      <Route path='/about' element={<About/>}/>
+      <Route path='/contact' element={<Contact/>}/>
+    </Routes>
+
+    <Footer/>
+    </BrowserRouter>
     </>
   )
 }

@@ -12,7 +12,7 @@ const SectionTwo = () => {
     <>
     <div id='section-Two-container' className='section-one-container'>
           
-          <div id='section-two'>
+          <div id='section-two' data-aos="fade-down-left" data-aos-duration="3000">
           <div id='section-two-circle' className='section-two-circle'>
           <Circle image={Jay}  anchortext={'Click me'} WD={"120%"} HG={"150%"} Tp={"-38px"} LF={"-15px"} />
           </div>

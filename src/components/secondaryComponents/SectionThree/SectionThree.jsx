@@ -11,22 +11,22 @@ const SectionThree = () => {
     {
       image: WebDesignIcon,
       text: "Frontend",
-      description: "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+      description: " I create visually appealing and user-friendly interfaces using HTML, CSS, and JavaScript. "
     },
     {
       image: Vector,
       text: "Backend",
-      description: "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+      description: "I build robust and scalable server-side applications using Node.js, Express, and databases like MongoDB or SQL."
     },
     {
       image: WebDesignIcon,
       text: "Responsive Design",
-      description: "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+      description:"I ensure that websites and applications are optimized for various devices and screen sizes, providing a seamless user experience."
     },
     {
       image: AppDesignIcon,
-      text: "App Development",
-      description: "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+      text: "Database Management",
+      description: "I design and manage databases to store and retrieve data efficiently, ensuring data integrity and security."
     }
   ]
 
@@ -37,8 +37,8 @@ const SectionThree = () => {
     <div id='section-Three-container'>
        
        <div id='section-Three-text'>
-        <h1>Services</h1>
-        <p>
+        <h1 data-aos="zoom-in-down" >Services</h1>
+        <p data-aos="zoom-out-up">
           I offer a wide range of services, including web design, web development,
           app development, and more. I am always looking for new and exciting projects to work on.
         </p>

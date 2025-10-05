@@ -17,11 +17,7 @@ const Navbar = () => {
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <Link class="nav-link" aria-current="page" to={"/"}>Home</Link> 
-            </li>
-
-            <li class="nav-item">
-            <Link class="nav-link" to={"/about"}>About me</Link>
+            <Link class="nav-link" to={"/about"}>About</Link>
             </li>
             
             <li class="nav-item dropdown">

@@ -9,7 +9,7 @@ import SectionFive from '../../secondaryComponents/SectionFive/SectionFive'
 const Home = () => {
 
   return (
-    <div>
+    <div id='home'>
       <SectionOne/>
       <SectionTwo/>
       <SectionThree/>

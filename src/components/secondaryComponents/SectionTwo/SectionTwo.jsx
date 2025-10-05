@@ -9,7 +9,6 @@ import Jay from '../../../assets/images/Jay.Jpg'
 
 const SectionTwo = () => {
   return (
-    <>
     <div id='section-Two-container' className='section-one-container'>
           
           <div id='section-two' data-aos="fade-down-left" data-aos-duration="3000">
@@ -69,7 +68,6 @@ const SectionTwo = () => {
           </div>
           </div>
         </div>
-    </>
   )
 }
 

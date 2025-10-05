@@ -22,16 +22,13 @@ const SectionOne = () => {
           <h1>Full Stack</h1>
           <h1 id='developer'>Developer</h1>
           <p id='description'>I have passion for creating dynamic and responsive web applications. I have experience in both front-end and back-end development, and I am always eager to learn new technologies and improve my skills. Let's build something amazing together!</p>
+         <button>Contact me</button>
           </div>
         </div>
 
        
         <div data-aos="fade-down-left" data-aos-duration="3000" id='section-one-circle' className='section-one-circle'>
-          <Circle image={Jaysmart}  anchortext={'Click me'}/> <br />
-          
-          {/* <div id='icons'>
-          <img id='logo' src="./src/assets/Images/Icons.PNG" alt=""  />
-          </div> */}
+          <Circle image={Jaysmart}  anchortext={'Click me'}/>
         </div>
 
         </div>

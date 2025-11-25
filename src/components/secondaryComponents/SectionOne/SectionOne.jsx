@@ -31,8 +31,7 @@ const SectionOne = () => {
           <Circle image={Jaysmart}  anchortext={'Click me'}/>
         </div>
 
-        </div>
-
+    </div>
   )
 }
 

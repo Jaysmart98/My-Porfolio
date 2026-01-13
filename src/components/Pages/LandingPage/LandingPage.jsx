@@ -24,7 +24,6 @@ const LandingPage = () => {
   const [activeSection, setActiveSection] = useState('home');
   const [scrolled, setScrolled] = useState(false);
 
-  // Handle scroll effects for navbar and active section tracking
   useEffect(() => {
     const handleScroll = () => {
       setScrolled(window.scrollY > 50);
@@ -99,7 +98,7 @@ const LandingPage = () => {
       link: "https://github.com/Jaysmart98"
     },
     {
-      title: "E-Commerce Cart System",
+      title: "E-Commerce landing Page",
       image: "https://res.cloudinary.com/dsyq8apha/image/upload/v1764072845/ECommerceCartt_vdbtzx.png",
       tags: ["Redux", "E-commerce", "Logic"],
       description: "Functional shopping cart interface featuring real-time price calculations and state management.",

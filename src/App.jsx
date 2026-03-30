@@ -63,46 +63,46 @@ const App = () => {
 
   const projects = [
     {
-      title: "MedTrack Landing Page",
+      title: "MedTrack Website",
       image: "https://res.cloudinary.com/dsyq8apha/image/upload/v1768318638/LamdingPageForMedTrack_shmfrs.jpg",
       tags: ["Healthcare", "Node.js", "React", "Mongo.DB"],
       description: "A professional medical tracking platform interface designed for high-performance patient monitoring.",
-      link: "https://github.com/Jaysmart98"
+      link: "https://medtrack-liard.vercel.app/"
     },
     {
-      title: "Task Management App",
-      image: "https://res.cloudinary.com/dsyq8apha/image/upload/v1768320232/TodoApp_skfzhi.jpg",
+      title: "Investment, Scam Recovery, Loan and  Career Website",
+      image: "https://res.cloudinary.com/dc4fx7sbe/image/upload/v1774882411/FundVestSaveUI_ur3hny.jpg",
       tags: ["Productivity", "Mongo.DB", "React"],
       description: "A streamlined task management system with real-time updates and intuitive drag-and-drop organization.",
-      link: "https://github.com/Jaysmart98"
+      link: "https://fund-vest-save.vercel.app/"
     },
     {
-      title: "E-Commerce Experience",
+      title: "E-Commerce",
       image: "https://res.cloudinary.com/dsyq8apha/image/upload/v1764072844/ECommerce1stPage_g5zzgh.jpg",
       tags: ["Shopping", "Modern"],
       description: "High-conversion storefront landing page with interactive product showcases and fluid layouts.",
-      link: "https://github.com/Jaysmart98"
+      link: "https://e-commerce-frontend-ten-inky.vercel.app/"
     },
     {
-      title: "MedTrack Registration",
+      title: "MedTrack Registration Page",
       image: "https://res.cloudinary.com/dsyq8apha/image/upload/v1768318639/RegisterPage_lcdnlu.jpg",
       tags: ["Auth", "Forms", "Validation"],
       description: "Streamlined user onboarding experience with secure input handling and accessible design.",
-      link: "https://github.com/Jaysmart98"
+      link: "https://medtrack-liard.vercel.app/signup"
     },
     {
-      title: "Modern Sign Up Page",
+      title: "Modern Signup UI",
       image: "https://res.cloudinary.com/dsyq8apha/image/upload/v1764072888/SignUpPage_b5o8ke.png",
       tags: ["UI Design", "Clean", "CSS"],
       description: "Minimalist and accessible authentication interface with soft aesthetics and focus on UX.",
-      link: "https://github.com/Jaysmart98"
+      link: "https://e-commerce-frontend-ten-inky.vercel.app/Signup#"
     },
     {
       title: "E-Commerce landing Page",
       image: "https://res.cloudinary.com/dsyq8apha/image/upload/v1764072845/ECommerceCartt_vdbtzx.png",
       tags: ["Redux", "E-commerce", "Logic"],
       description: "Functional shopping cart interface featuring real-time price calculations and state management.",
-      link: "https://github.com/Jaysmart98"
+      link: "https://e-commerce-frontend-ten-inky.vercel.app/"
     }
   ];
 
